@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { EcceptionComponent } from './ecceptions/ecception/ecception.component';
+import { HomeContainerComponent } from './container/home-container/home-container.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EcceptionComponent,
+    HomeContainerComponent
   ],
   imports: [
     BrowserModule,
